@@ -28,6 +28,7 @@ UITableViewDataSource>
      _animationTypes = @[@"预览",@"旋转",@"渐变",@"粒子",@"波纹", @"波浪", @"三角形", @"网格", @"条形", @"转圈", @"心", @"翻转"];
     
     [self.view addSubview:self.tableView];
+    
 }
 
 - (UITableView*)tableView {
